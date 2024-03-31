@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script src="index.js" defer></script>
+    <header>
+        <div style="display:inline-flex;border: 5px solid green; width: 100%;">
+            <div style="border: 5px solid red;width: 5%;"   id="hamburger_menu"><img></div>
+            <div style="border: 5px solid yellow; width: 95%;" id="title"> <h1 class="title">Task List</h1> </div>   
+        </div>    
+    </header>
+    <section>
+
+        <table id="tab" style="padding:10px; border:2px solid greenyellow">
+            <tr style=" padding :10px; border:2px solid saddlebrown">
+                <th>task description</th>
+                <th>task date</th>
+                <th>label</th>
+            </tr>
+            <tr style=" padding :10px; border:2px solid saddlebrown">
+                <td>--------------task title------------------------------------</td>
+            </tr>
+            <tr>
+                <td class="row1">column1 row1</td>
+                <td class="row1">column2 row1</td>
+                <td class="row1">column3 row1</td>
+            </tr>    
+        </table>
+
+        <form id="inputform">
+                <input type="text" name="description" placeholder="description" />
+                <input type="text" name="description" placeholder="date" />
+                <input type="text" name="description" placeholder="label"/>
+                <input type="submit" name="submit button" onclick="addRow()"/>
+        </form> 
+
+    </section>
+    
+</body>
+</html>

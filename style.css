@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+
+    font-size: verdana;
+    font-size: 2em;
+}
+
+table
+th{
+    padding :20px;
+    border : 2px solid blue;
+}
+
+table 
+tr{
+    padding :5px;
+    border :2px solid grey;
+}
+
+.row1{
+    padding :20px;
+    border : 2px solid blue;
+}
+
