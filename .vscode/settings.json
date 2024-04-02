@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "bandyachari",
+        "projectKey": "bandyachari_TodoList"
+    }
+}
