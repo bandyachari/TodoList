@@ -17,7 +17,7 @@
     </header>
     <section>
 
-        <table id="tab" style="padding:10px; border:2px solid greenyellow">
+        <table id="tab" alt="task list table" style="padding:10px; border:2px solid greenyellow" >
             <tr style=" padding :10px; border:2px solid saddlebrown">
                 <th>task description</th>
                 <th>task date</th>
@@ -33,10 +33,10 @@
             </tr>     -->
         </table>
 
-        <form id="inputform">
-                <input type="text" name="task" placeholder="description" />
-                <input type="text" name="date" placeholder="date" />
-                <input type="text" name="late" placeholder="label"/>
+        <form id="inputform" onsubmit="return false">
+                <input type="text" name="task" placeholder="description" id="each_task" />
+                <input type="date" name="date" placeholder="date" id="date_picked" />
+                <input type="text" name="late" placeholder="label" id="late" />
                 <button type="submit" name="submit button" onclick="addRow()">submit button </button>
         </form> 
 
